@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seller's Admin Page </title>
+
+</head>
+
+<body>
+    <h1 style = "justify-content: center"> Seller's Admin Page</h1>
+    <br>
+    <form id="form">
+        <label for="price">Selling Price:</label>
+        <input type="number" name="price" id="price">
+        <label for="product">Product :</label>
+        <input type="text" name="product" id="product">
+        <button type="submit" id="add">Add Product </button>
+    </form>
+
+<hr> 
+        <h2> Orders </h2>
+        <label id = "list" name = "list" , value = "list"></label>
+        <ul id="list"> </ul>
+        
+        <br>
+
+        <h2 id = "total-value"> Total Value Worth of Product : 0.0 </h2>
+
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.6.8/axios.min.js" integrity="sha512-PJa3oQSLWRB7wHZ7GQ/g+qyv6r4mbuhmiDb8BjSFZ8NZ2a42oTtAq5n0ucWAwcQDlikAtkub+tPVCw4np27WCg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://crudcrud.com/api/6d979a85c53d4a949afcf4fb12e52b93"></script>
+    <script src="index.js"> </script>
+    <link rel="stylesheet" href="style.css">
+</body>
+
+</html>
